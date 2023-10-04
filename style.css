@@ -1,0 +1,53 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 0.6fr 1fr 5fr 1fr;
+    gap: 20px;
+}
+
+header{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#rubrik{
+    background-color: rgb(77, 68, 68);
+    border: 2px solid red;
+    color: blanchedalmond;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 70%;
+    width: 100%;
+    max-width: 60%;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 5%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    max-width: fit-content;
+}
+
+.dagar{
+    font-size: 0.5em;
+    border: 2px solid green;
+    background-color: rgb(77, 68, 68);
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-height: fit-content;
+}
+
+#jul{
+    color: red;
+    background-color: white;
+}
+
+#nyår{
+    background-color: rgb(209, 209, 64);
+}
