@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 0.4fr 1fr 4fr 1fr;
+    grid-template-rows: 0.4fr 1fr 3fr 1fr;
     background-image: url(./img/winter_bg3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,28 +68,34 @@ main{
     border: 2px solid black;
 }
 
-th{
-    border: 3px solid red;
-    background-color: rgb(186, 186, 186);
-    width: 0.14%;
-}
-
-.datum{
-    margin: 20px;
-    text-align: center;
+h2{
+    border: 2px solid red;
+    background-color: rgb(200, 199, 199);
+    padding: 10px;
 }
 
 .veckodagar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.2fr;
     margin: 20px;
-    margin-top: 40px;
 }
 
-td{
-    border: 3px solid red;
-    font-size: 1.5em;
-    width: 0.14%;
-    height: 0.14%;
-    margin: 10px;
+.datum > h1{
+    height:60%;
+    padding-top: 30%;
+    border: 2px solid red;
+    font-size: 2.5em;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+.datum{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin: 20px;
+    text-align: center;
 }
 
 #red{
@@ -100,6 +106,10 @@ footer{
     grid-column: 2/3;
     grid-row: 4/5;
     text-align: center;
-    color: blanchedalmond;
+    color: black;
     font-family: "Skranji";
+}
+
+#footer{
+    border: none;
 }
