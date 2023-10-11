@@ -106,10 +106,11 @@ footer{
     grid-column: 2/3;
     grid-row: 4/5;
     text-align: center;
-    color: black;
-    font-family: "Skranji";
 }
 
-#footer{
-    border: none;
+a{
+    color: black;
+    font-family: "Skranji";
+    text-decoration: none;
+    font-size: 2em;
 }
